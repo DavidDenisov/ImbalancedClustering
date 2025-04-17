@@ -1,24 +1,26 @@
-# Tests, ordered by order of presentation in the paper and organized by type.
+# Smart-init of neural networks
+The official code of the paper **Smart-init of neural networks** published (in press) in ICCAI 2025,
+which suggested an initialization method that has improved the results of the experiments done in the paper.
 
-# algorithms
-### All the algorithms used.
+*Fell free to contact [David-Denisov](mailto:DavidDenisov14@gmail.com) for suggestions, collaborations, e.t.c.*
 
-# Motivation tests
-## Simple tests and illustrations that are presented in the main part of the paper.
-### motivation.py
-Run all the tests in Section 1, to change between the tests change the hard-coded values.
+This repository contains the code and results for all the algorithms and examples that appeared in the paper.
 
-### image_test.py
-Do the test for the drawing image at Section 3.1.
-
-### motivation_new.py
-Do the test for the sklearn inspired test image at Section 3.2.
-
-### choice_toy.py
-The cat and boat test for Section 3.4.
-
-# Data set tests
-### synthetic_test.py
+### CONSTRUCTION
+- **paper.pdf** the current version of the paper.
+- **algorithms.py** All the algorithms used.
+- **motivation.py** Run all the tests in **Section 1**, to change between the tests change the hard-coded values.
+- **image_test.py** Run the test for the drawing image at **Section 3.1**.
+- **motivation_new.py** Run the test for the sklearn inspired test image at **Section 3.2**.
+- **choice_toy.py** Run the cat and boat test from **Section 3.4**.
+- **synthetic_test.py** Run the synthetic test from **Section E.1**.
+- **real_test.py** Run the real-world test from **Section E.1**.
+- **divisive.py** Run all the tests from **Section E.2**.
+- **choice/** has all the images for **Section 3.4**, and the script to crop them.
+- **imgs/** contains all the original images used throughout the paper.
+- **motivation/** contains the *motivation* images used in **Section 1, 3.1, and 3.3**
+- **plots/** all the images used in **Section E**.
+- **res/** contains all the results for the tests in **Section E**.
 
 ### For initialization, install the requirements; check the CUDA version for synthetic_test.
 
