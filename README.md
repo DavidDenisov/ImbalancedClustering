@@ -20,3 +20,18 @@ The cat and boat test for Section 3.4.
 # Data set tests
 ### synthetic_test.py
 
+### For initialization, install the requirements; check the CUDA version for synthetic_test.
+
+## License
+Shield: [![CC BY-NC 4.0][cc-by-nc-shield]][cc-by-nc]
+
+This work is licensed under a
+[Creative Commons Attribution-NonCommercial 4.0 International License][cc-by-nc].
+
+[![CC BY-NC 4.0][cc-by-nc-image]][cc-by-nc]
+
+[cc-by-nc]: https://creativecommons.org/licenses/by-nc/4.0/
+[cc-by-nc-image]: https://licensebuttons.net/l/by-nc/4.0/88x31.png
+[cc-by-nc-shield]: https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg
+
+See [License](License.md) and an unformatted version at [Un-formated-License](License).
